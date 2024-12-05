@@ -247,41 +247,48 @@
     </section>
 
     <main class="container">
-      <section>
+      <section id="racommended" class="courses">
         <h2>Recommented to you</h2>
         <div class="row">
           <div class="col-6">
-            <div class="card" style="max-width: 18rem">
+            <div
+              class="card rounded-3 overflow-hidden"
+              style="max-width: 18rem"
+            >
               <img
                 src="assets/img/course-graphql.jpg"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">
+                <h5 class="card-title mt-2">
                   GraphQL: introduction to graphQl for beginners
                 </h5>
-                <div class="card-group">
-                  <i data-feather="clock"></i>
+                <div class="card-group first mt-3">
+                  <i class="icon" data-feather="clock"></i>
                   <span>2h 40m</span>
-                  <i data-feather="bar-chart"></i>
+                  <i class="level icon" data-feather="bar-chart"></i>
                   <span>Advance</span>
                 </div>
-                <div class="card-group">
-                  <i data-feather="star"></i>
-                  <i data-feather="star"></i>
-                  <i data-feather="star"></i>
-                  <i data-feather="star"></i>
-                  <i data-feather="star"></i>
+                <div class="card-group second my-3">
+                  <i class="icon" data-feather="star"></i>
+                  <i class="icon" data-feather="star"></i>
+                  <i class="icon" data-feather="star"></i>
+                  <i class="icon" data-feather="star"></i>
+                  <i class="icon" data-feather="star"></i>
                   <span>2.5</span>
                   <span>(1,500)</span>
                 </div>
-                <span class="card-subtitle">$500</span>
-                <s>$600</s>
-                <div class="card-bottom">
-                  <div>
-                    <img src="assets/img/avatar-5.jpg" alt="" />
-                    <h4>Brooklyn Simmons</h4>
+                <span class="card-subtitle fw-bold">$500</span>
+                <s class="fw-medium">$600</s>
+                <div class="card-bottom d-flex justify-content-between">
+                  <div class="d-flex">
+                    <img
+                      class="imgPicture rounded-circle"
+                      src="assets/img/avatar-5.jpg"
+                      alt=""
+                    />
+                    <h4 class="username">Brooklyn Simmons</h4>
                   </div>
                   <i data-feather="bookmark"></i>
                 </div>

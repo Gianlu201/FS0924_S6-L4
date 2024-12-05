@@ -1,0 +1,43 @@
+.courses {
+  .card {
+    .card-title {
+      line-height: 1.2;
+      height: 2.4em;
+      overflow: hidden;
+    }
+
+    .card-group.first {
+      gap: 8px;
+      color: #78748d;
+      font-weight: 500;
+
+      .icon {
+        width: 18px;
+      }
+    }
+
+    .card-group.first .level {
+      color: #754ffe;
+      stroke-width: 3px;
+    }
+
+    .card-group.second {
+      .icon {
+        width: 14px;
+        margin-right: 2px;
+      }
+    }
+
+    s {
+      color: #78748d;
+    }
+
+    .imgPicture {
+      width: 40px;
+    }
+
+    .username {
+      font-size: 1em;
+    }
+  }
+}

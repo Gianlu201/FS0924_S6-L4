@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/partials/_addCard.scss"],"names":[],"mappings":"AACE;EACE;EACA;EACA;EACA;EACA;EACA;;AAGF;EACE;EACA;EACA;;AAIA;EACE;EACA;;AAGF;EACE;EACA","file":"style2.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/partials/_addCard.scss","../scss/partials/_courseCard.scss"],"names":[],"mappings":"AACE;EACE;EACA;EACA;EACA;EACA;EACA;;AAGF;EACE;EACA;EACA;;AAIA;EACE;EACA;;AAGF;EACE;EACA;;;ACtBF;EACE;EACA;EACA;;AAGF;EACE;EACA;EACA;;AAEA;EACE;;AAIJ;EACE;EACA;;AAIA;EACE;EACA;;AAIJ;EACE;;AAGF;EACE;;AAGF;EACE","file":"style2.css"}

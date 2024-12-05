@@ -20,4 +20,35 @@
   color: #7d7992;
 }
 
+.courses .card .card-title {
+  line-height: 1.2;
+  height: 2.4em;
+  overflow: hidden;
+}
+.courses .card .card-group.first {
+  gap: 8px;
+  color: #78748d;
+  font-weight: 500;
+}
+.courses .card .card-group.first .icon {
+  width: 18px;
+}
+.courses .card .card-group.first .level {
+  color: #754ffe;
+  stroke-width: 3px;
+}
+.courses .card .card-group.second .icon {
+  width: 14px;
+  margin-right: 2px;
+}
+.courses .card s {
+  color: #78748d;
+}
+.courses .card .imgPicture {
+  width: 40px;
+}
+.courses .card .username {
+  font-size: 1em;
+}
+
 /*# sourceMappingURL=style2.css.map */

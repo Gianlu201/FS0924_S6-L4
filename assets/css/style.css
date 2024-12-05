@@ -50,3 +50,11 @@ header nav .notes {
 #heroTop {
   background-color: #754ffe;
 }
+
+.card-title {
+  display: -webkit-box;
+  -webkit-box-direction: vertical;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}

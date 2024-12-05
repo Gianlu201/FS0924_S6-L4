@@ -20,11 +20,11 @@
   color: #7d7992;
 }
 
-.courses .card .card-title {
+/* .courses .card .card-title {
   line-height: 1.2;
   height: 2.4em;
   overflow: hidden;
-}
+} */
 .courses .card .card-group.first {
   gap: 8px;
   color: #78748d;

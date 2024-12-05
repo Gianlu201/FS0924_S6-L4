@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style2.css" />
+  </head>
+  <body>
+    <header class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/img/logo.svg"
+              alt="Bootstrap"
+              width="30"
+              height="24"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Browse
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Landings
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Accounts
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <span
+                border-radius:
+                100%;
+                class="d-flex justify-content-center align-items-center position-relative bg-body-tertiary me-3 p-2 rounded-circle"
+                id="news"
+              >
+                <i class="bi bi-bell d-block"></i>
+                <span
+                  class="position-absolute translate-middle bg-info border border-light rounded-circle notes"
+                  id="bellNote"
+                ></span>
+              </span>
+
+              <span class="nav-item dropdown user-nav d-block">
+                <a
+                  class="nav-link position-relative"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    id="user"
+                    class="rounded-circle"
+                    src="assets/img/avatar-1.jpg"
+                    alt=""
+                  />
+                  <span
+                    class="position-absolute translate-middle bg-success rounded-circle notes d-block"
+                    id="userNote"
+                  ></span>
+                </a>
+                <ul class="dropdown-menu user-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero text-white">
+      <article id="heroTop" class="pt-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h1>Welcome Dev Students!</h1>
+              <p>
+                Hand-picked Instructor and expertly crafted courses, designed
+                for the modern students and entrepreneur.
+              </p>
+              <div class="d-flex gap-2">
+                <a href="javascript:void(0);" class="btn btn-success"
+                  >Browse Courses</a
+                >
+                <a href="javascript:void(0);" class="btn btn-light"
+                  >Are You Instructor?</a
+                >
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <img src="assets/img/hero-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article id="addsBox" class="bg-white pt-4 shadow">
+        <div class="container text-black">
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-3">
+              <div class="add d-flex">
+                <div class="iconBox rounded-circle me-2">
+                  <i class="icon" data-feather="video"></i>
+                </div>
+                <div
+                  class="add-content d-flex flex-column justify-content-center"
+                >
+                  <h4 class="p-0">30,000 online courses</h4>
+                  <p class="p-0 fw-medium">Enjoy a variety of fresh topics</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-3">
+              <div class="add d-flex">
+                <div class="iconBox rounded-circle me-2">
+                  <i class="icon" data-feather="users"></i>
+                </div>
+                <div
+                  class="add-content d-flex flex-column justify-content-center"
+                >
+                  <h4 class="p-0">Expert instruction</h4>
+                  <p class="p-0 fw-medium">Find the right instructor for you</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-3">
+              <div class="add d-flex">
+                <div class="iconBox rounded-circle me-2">
+                  <i class="icon" data-feather="clock"></i>
+                </div>
+                <div
+                  class="add-content d-flex flex-column justify-content-center"
+                >
+                  <h4 class="p-0">Lifetime access</h4>
+                  <p class="p-0 fw-medium">Learn on your schedule</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <main class="container">
+      <section>
+        <h2>Recommented to you</h2>
+        <div class="row">
+          <div class="col-6">
+            <div class="card" style="max-width: 18rem">
+              <img
+                src="assets/img/course-graphql.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  GraphQL: introduction to graphQl for beginners
+                </h5>
+                <div class="card-group">
+                  <i data-feather="clock"></i>
+                  <span>2h 40m</span>
+                  <i data-feather="bar-chart"></i>
+                  <span>Advance</span>
+                </div>
+                <div class="card-group">
+                  <i data-feather="star"></i>
+                  <i data-feather="star"></i>
+                  <i data-feather="star"></i>
+                  <i data-feather="star"></i>
+                  <i data-feather="star"></i>
+                  <span>2.5</span>
+                  <span>(1,500)</span>
+                </div>
+                <span class="card-subtitle">$500</span>
+                <s>$600</s>
+                <div class="card-bottom">
+                  <div>
+                    <img src="assets/img/avatar-5.jpg" alt="" />
+                    <h4>Brooklyn Simmons</h4>
+                  </div>
+                  <i data-feather="bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <i data-feather="anchor"></i>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

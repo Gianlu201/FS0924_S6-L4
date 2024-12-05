@@ -1,0 +1,28 @@
+#addsBox .add {
+  .iconBox {
+    height: 60px;
+    width: 60px;
+    background-color: #ffeeda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon {
+    width: 20px;
+    color: #d19c5d;
+    font-weight: 900;
+  }
+
+  .add-content {
+    h4 {
+      font-weight: 700;
+      font-size: 1.22em;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #7d7992;
+    }
+  }
+}

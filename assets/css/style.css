@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* header nav .user-nav {
+  position: relative;
+}
+
+header nav .user-menu {
+  position: absolute;
+  top: 25px;
+  right: 0px;
+} */
+
+#news {
+  width: 50px;
+}
+
+#news i {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+header nav .notes {
+  padding: 6px;
+}
+
+#bellNote {
+  top: 10px;
+  right: -5px;
+}
+
+#user {
+  width: 50px;
+}
+
+#userNote {
+  bottom: -8px;
+  right: -10px;
+  border: 3px solid white;
+}
+
+#heroTop {
+  background-color: #754ffe;
+}

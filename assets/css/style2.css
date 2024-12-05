@@ -1,0 +1,23 @@
+#addsBox .add .iconBox {
+  height: 60px;
+  width: 60px;
+  background-color: #ffeeda;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#addsBox .add .icon {
+  width: 20px;
+  color: #d19c5d;
+  font-weight: 900;
+}
+#addsBox .add .add-content h4 {
+  font-weight: 700;
+  font-size: 1.22em;
+}
+#addsBox .add .add-content p {
+  font-size: 1.1em;
+  color: #7d7992;
+}
+
+/*# sourceMappingURL=style2.css.map */
